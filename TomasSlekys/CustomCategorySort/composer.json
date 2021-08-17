@@ -1,0 +1,22 @@
+{
+    "name": "tomasslekys/module-customcategorysort",
+    "description": "Custom category product sorting",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "TomasSlekys",
+            "email": "tomas.h1tm4n@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "TomasSlekys\\CustomCategorySort\\": ""
+        }
+    }
+}
